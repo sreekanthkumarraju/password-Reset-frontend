@@ -28,7 +28,7 @@ export default function ForgotPassword(){
            e.preventDefault()
            if(emailId.emailId !== '')
            {
-              await  axios.post('http://localhost:8000/forgotpassword',emailId)
+              await  axios.post('https://password-reset-page.herokuapp.com/forgotpassword',emailId)
                .then((response)=>{
                    setNotify(response.data.message)  
                }).catch((error)=>{

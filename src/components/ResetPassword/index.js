@@ -19,7 +19,7 @@ const ResetPassword = () => {
 
 	const param = useParams();
 
-	const url = `http://localhost:8000/password-reset/${param.id}/${param.token}`;
+	const url = `https://password-reset-page.herokuapp.com/${param.id}/${param.token}`;
 
   const changeHandler=(event)=>{
        console.log(event.target.value)
