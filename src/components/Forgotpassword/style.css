@@ -1,0 +1,17 @@
+#continuebtn,#resetbtn{
+    width:100px;
+    background-color:aqua;
+}
+
+.container{
+    margin-top: 80px;;
+}
+
+.notify{
+    margin-top: 20px;
+    font-size: 25px;;
+    color: darkgreen;
+
+}
+
+
