@@ -77,7 +77,7 @@ export default function RegisterForm(){
             axios.post("https://password-reset-page.herokuapp.com/register",userData)
               .then((response)=>{
                    console.log(response)
-                   navigate('/login')
+                   navigate('/forgotpassword')
               })
               .catch((err)=>{
                   console.log(err)
@@ -90,7 +90,7 @@ export default function RegisterForm(){
     return(
        
     <div className='container'>  
-       <div className='row  ' style={{"marginTop":"150px","marginLeft":"150px"}}>
+       <div className='row  ' style={{"marginTop":"100px","marginLeft":"150px"}}>
       <div className='col col-6 '>
          <div className='ms-5'>
              
