@@ -51,6 +51,7 @@ const ResetPassword = () => {
      else
      {
        console.log('passwords matched')
+	   setError('')
        console.log(password)
      
        let passworddata= password.enteredpassword
