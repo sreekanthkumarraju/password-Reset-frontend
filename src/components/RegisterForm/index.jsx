@@ -111,7 +111,7 @@ export default function RegisterForm(){
           </div>
           </div>
           <div className='col col-6 '>
-          <div className='mt-3 rounded-top rounded-bottom pt-5' style={{"backgroundColor":"#3bb19b","width":"230px","height":"300px"}}>
+          <div className=' rounded-top rounded-bottom pt-5' style={{"backgroundColor":"#3bb19b","width":"230px","height":"300px"}}>
               <h1>Forgot Password</h1>
               <Link to="/forgotpassword">
                  <button type="button" className='btn-lg rounded-pill mt-4 bg-white'>Forgot Password</button>
