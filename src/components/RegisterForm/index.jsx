@@ -90,7 +90,7 @@ export default function RegisterForm(){
     return(
        
     <div className='container'>  
-       <div className='row  ' style={{"marginTop":"100px","marginLeft":"150px"}}>
+       <div className='row  ' style={{"marginTop":"200px","marginLeft":"150px"}}>
       <div className='col col-6 '>
          <div className='ms-5'>
              
