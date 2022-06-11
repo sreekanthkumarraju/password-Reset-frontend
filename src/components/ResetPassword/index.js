@@ -19,7 +19,7 @@ const ResetPassword = () => {
 
 	const param = useParams();
 
-	const url = `https://password-reset-page.herokuapp.com/${param.id}/${param.token}`;
+	const url = `https://password-reset-page.herokuapp.com/password-reset/${param.id}/${param.token}`;
 
   const changeHandler=(event)=>{
        console.log(event.target.value)
@@ -77,7 +77,7 @@ const ResetPassword = () => {
 	return (
 		<Fragment>
 
-			{/* {validUrl ? ( */}
+			 {validUrl ? ( 
 
 				<div className='container'>
 
@@ -116,9 +116,9 @@ const ResetPassword = () => {
 					</form>
 
 				</div>
-			{/* ) : (
+			) : (
 				<h1>404 Not Found</h1>
-			)} */}
+			)}
 
 		</Fragment>
 	);
