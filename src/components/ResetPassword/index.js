@@ -77,7 +77,7 @@ const ResetPassword = () => {
 	return (
 		<Fragment>
 
-			{validUrl ? (
+			{/* {validUrl ? ( */}
 
 				<div className='container'>
 
@@ -116,9 +116,9 @@ const ResetPassword = () => {
 					</form>
 
 				</div>
-			) : (
+			{/* ) : (
 				<h1>404 Not Found</h1>
-			)}
+			)} */}
 
 		</Fragment>
 	);
