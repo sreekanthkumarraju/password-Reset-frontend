@@ -74,7 +74,7 @@ export default function RegisterForm(){
            //Object.keys will return an Array, which contains the property names of the object
           // If the length of the array is 0==> then object is empty
            if(Object.keys(error).length===0 && issubmitted ){
-            axios.post("http://localhost:800/register",userData)
+            axios.post("https://password-reset-page.herokuapp.com/register",userData)
               .then((response)=>{
                    console.log(response)
                    navigate('/login')
